@@ -1,0 +1,61 @@
+.dream-house {
+  .image-wrap {
+    svg {
+      path {
+        stroke: #000;
+        stroke-width: 1px;
+        stroke-dasharray: 500;
+        stroke-dashoffset: 500;
+        animation: 3s ease-in-out forwards 0.5s logoAnimate, 1s ease-in-out forwards fillblack 3.2s;
+
+        &#Path_274 {
+          stroke: #ecb815;
+          animation: 3s ease-in-out forwards 0.5s logoAnimate, 1s ease-in-out forwards fillyellow 3.2s;
+          stroke-dasharray: 335;
+          stroke-dashoffset: 335;
+        }
+
+        &:first-of-type,
+        &:nth-of-type(2),
+        &:nth-of-type(3),
+        &:nth-of-type(4) {
+          stroke-dasharray: 155;
+          stroke-dashoffset: 155;
+        }
+
+      }
+
+      rect {
+        stroke: #ecb815;
+        animation: 3s ease-in-out forwards 0.5s logoAnimate, 1s ease-in-out forwards fillyellow 3s;
+      }
+    }
+  }
+
+
+  @keyframes logoAnimate {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  @keyframes fillblack {
+    from {
+      fill: transparent;
+    }
+
+    to {
+      fill: #000;
+    }
+  }
+
+  @keyframes fillyellow {
+    from {
+      fill: transparent;
+    }
+
+    to {
+      fill: #ecb815;
+    }
+  }
+}
