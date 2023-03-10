@@ -1,0 +1,187 @@
+.yasmine-hotel {
+  .image-wrap {
+    svg {
+      width: 100%;
+      height: 100%;
+
+      path {
+        stroke: #BA875D;
+        stroke-width: 3px;
+        fill: transparent;
+
+        &:first-child {
+          stroke: #BA875D;
+          stroke-width: 3px;
+          fill: transparent;
+          stroke-dasharray: 3825;
+          stroke-dashoffset: 3825;
+          animation: 2s linear animateLogo forwards, .5s logoFillYa 2s linear forwards;
+        }
+
+
+        &:nth-child(2) {
+          stroke-dasharray: 1154;
+          stroke-dashoffset: 1154;
+          animation: 2s linear animateLogo forwards, .5s logoFillYa 2s linear forwards;
+        }
+
+        &:nth-child(3) {
+          stroke-dasharray: 739;
+          stroke-dashoffset: 739;
+          animation: 2s linear animateLogo forwards, .5s logoFillYa 2s linear forwards;
+        }
+
+        &:nth-child(4) {
+          stroke-dasharray: 735;
+          stroke-dashoffset: 735;
+          animation: 2s linear animateLogo forwards, .5s logoFillYa 2s linear forwards;
+        }
+
+        &:nth-child(5),
+        &:nth-child(6),
+        &:nth-child(7),
+        &:nth-child(8) {
+          stroke-dasharray: 289;
+          stroke-dashoffset: 289;
+          animation: 1.5s linear animateLogo forwards, .5s logoFillYa 2s linear forwards;
+        }
+
+        &:nth-child(9) {
+          stroke-dasharray: 548;
+          stroke-dashoffset: 548;
+          animation: 2s linear animateLogo forwards, .5s logoFillYa 2s linear forwards;
+        }
+
+        &:nth-child(10) {
+          stroke-dasharray: 513;
+          stroke-dashoffset: 513;
+          animation: 2s linear animateLogo forwards, .5s logoFillYa 2s linear forwards;
+        }
+
+        &:nth-child(11) {
+          stroke-dasharray: 467;
+          stroke-dashoffset: 467;
+          animation: 2s linear animateLogo forwards, .5s logoFillYa 2s linear forwards;
+        }
+
+        &:nth-child(12) {
+          stroke-dasharray: 528;
+          stroke-dashoffset: 528;
+          animation: 2s linear animateLogo forwards, .5s logoFillYa 2s linear forwards;
+        }
+
+        &:nth-child(13) {
+          stroke-dasharray: 547;
+          stroke-dashoffset: 547;
+          animation: 2s linear animateLogo forwards, .5s logoFillYa 2s linear forwards;
+        }
+
+        &:nth-child(14) {
+          stroke-dasharray: 471;
+          stroke-dashoffset: 471;
+          animation: 2s linear animateLogo forwards, .5s logoFillYa 2s linear forwards;
+        }
+
+        &:nth-child(15) {
+          stroke-dasharray: 386;
+          stroke-dashoffset: 386;
+          animation: 2s linear animateLogo forwards, .5s logoFillYa 2s linear forwards;
+        }
+
+        &:nth-child(16) {
+          stroke-dasharray: 308;
+          stroke-dashoffset: 308;
+          animation: 2s linear animateLogo forwards, .5s logoFillYa 2s linear forwards;
+        }
+
+        &:nth-child(17) {
+          stroke-dasharray: 340;
+          stroke-dashoffset: 340;
+          animation: 2s linear animateLogo forwards, .5s logoFillYa 2s linear forwards;
+        }
+
+        &:nth-child(18) {
+          stroke-dasharray: 338;
+          stroke-dashoffset: 338;
+          animation: 2s linear animateLogo forwards, .5s logoFillYa 2s linear forwards;
+        }
+
+        &:nth-child(19) {
+          stroke-dasharray: 302;
+          stroke-dashoffset: 302;
+          animation: 2s linear animateLogo forwards, .5s logoFillYa 2s linear forwards;
+        }
+
+        &:nth-child(20),
+        &:nth-child(21) {
+          stroke-dasharray: 310;
+          stroke-dashoffset: 310;
+          animation: 2s linear animateLogo forwards, .5s logoFillYa 2s linear forwards;
+        }
+
+        &:nth-child(22),
+        &:nth-child(23),
+        &:nth-child(24) {
+          stroke-dasharray: 287;
+          stroke-dashoffset: 287;
+          animation: 2s linear animateLogo forwards, .5s logoFillYa 2s linear forwards;
+        }
+
+        &:nth-child(25) {
+          stroke-dasharray: 258;
+          stroke-dashoffset: 258;
+          animation: 2s linear animateLogo forwards, .5s logoFillYa 2s linear forwards;
+        }
+
+        &:nth-child(26) {
+          stroke-dasharray: 208;
+          stroke-dashoffset: 208;
+          animation: 2s linear animateLogo forwards, .5s logoFillYa 2s linear forwards;
+        }
+
+        &:nth-child(27),
+        &:nth-child(28) {
+          stroke-dasharray: 222;
+          stroke-dashoffset: 222;
+          animation: 2s linear animateLogo forwards, .5s logoFillYa 2s linear forwards;
+        }
+
+        &:nth-child(29),
+        &:nth-child(30) {
+          stroke-dasharray: 164;
+          stroke-dashoffset: 164;
+          animation: 2s linear animateLogo forwards, .5s logoFillYa 2s linear forwards;
+        }
+
+        &:nth-child(31),
+        &:nth-child(32),
+        &:nth-child(33),
+        &:nth-child(34),
+        &:nth-child(35),
+        &:nth-child(36),
+        &:nth-child(37),
+        &:nth-child(38),
+        &:nth-child(39),
+        &:nth-child(40),
+        &:nth-child(41),
+        &:nth-child(42),
+        &:nth-child(43),
+        &:nth-child(44),
+        &:nth-child(45) {
+          stroke-dasharray: 35;
+          stroke-dashoffset: 35;
+          animation: 2s linear animateLogo forwards, .5s logoFillYa 2s linear forwards;
+        }
+
+      }
+    }
+  }
+}
+
+
+
+@keyframes logoFillYa {
+  to {
+    fill: #BA875D;
+  }
+}

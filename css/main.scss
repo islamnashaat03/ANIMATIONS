@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
+  height: 100vh;
+
+  .all-animations {
+    height: 100%;
+    padding: 20px;
+
+    .wrapper {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 30px;
+
+
+
+      // IMPORT ALL ANIMATIONS 
+
+      @import "./netag";
+      @import "./nasmat";
+      @import "./yasmine-hotel";
+
+      .image-wrap {
+        height: 250px;
+        position: relative;
+
+        svg {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+
+    }
+  }
+}
