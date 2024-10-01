@@ -1,0 +1,166 @@
+.bareeq{
+    background-color: #2746e4;
+    padding: 20px;
+    .image-wrap{
+        svg {
+            path {
+                fill: transparent;
+                animation:
+                    animateLogo 2s linear forwards,
+                    logoFillBa 1.5s forwards linear 2.2s;
+                stroke: #fff;
+                stroke-width: 2px;
+                &:first-child {
+                    stroke-dashoffset: 98.52942657470703;
+                    stroke-dasharray: 98.52942657470703;
+                    fill: transparent;
+                    animation:
+                        animateLogo 2s linear forwards,
+                        logoFillBa 1.5s forwards linear 2.2s;
+                    stroke: #fff;
+                    stroke-width: 2px;
+                }
+                &:nth-child(2) {
+                    stroke-dashoffset: 347;
+                    stroke-dasharray: 347;
+                    stroke: #fff;
+                    stroke-width: 2px;
+                    fill: transparent;
+                    animation:
+                        animateLogo 2s linear forwards,
+                        logoFillBa 1.5s forwards linear 2.2s;
+                }
+                &:nth-child(3) {
+                    stroke-dashoffset: 580;
+                    stroke-dasharray: 580;
+                    stroke: #fff;
+                    stroke-width: 2px;
+                    fill: transparent;
+                    animation:
+                        animateLogo 2s linear forwards,
+                        logoFillBa 1.5s forwards linear 2.2s;
+                }
+                &:nth-child(4) {
+                    stroke-dashoffset: 768;
+                    stroke-dasharray: 768;
+                    stroke: #fff;
+                    stroke-width: 2px;
+                    fill: transparent;
+                    animation:
+                        animateLogo 2s linear forwards,
+                        logoFillBa 1.5s forwards linear 2.2s;
+                }
+                &:nth-child(5) {
+                    stroke-dashoffset: 339;
+                    stroke-dasharray: 339;
+                    stroke: #fff;
+                    stroke-width: 2px;
+                    fill: transparent;
+                    animation:
+                        animateLogo 2s linear forwards,
+                        logoFillBa 1.5s forwards linear 2.2s;
+                }
+                &:nth-child(6),
+                &:nth-child(7),
+                &:nth-child(8) {
+                    stroke-dashoffset: 48;
+                    stroke-dasharray: 48;
+                    stroke: #fff;
+                    stroke-width: 2px;
+                    fill: transparent;
+                    animation:
+                        animateLogo 2s linear forwards,
+                        logoFillBa 1.5s forwards linear 2.2s;
+                }
+                &:nth-child(9),
+                &:nth-child(10),
+                &:nth-child(11),
+                &:nth-child(16),
+                &:nth-child(17),
+                &:nth-child(18),
+                &:nth-child(19),
+                &:nth-child(20),
+                &:nth-child(21),
+                &:nth-child(24),
+                &:nth-child(25),
+                &:nth-child(26),
+                &:nth-child(27) {
+                    stroke-dashoffset: 7;
+                    stroke-dasharray: 7;
+                    stroke: #fff;
+                    stroke-width: 2px;
+                    fill: transparent;
+                    animation:
+                        animateLogo 2s linear forwards,
+                        logoFillBa 1.5s forwards linear 2.2s;
+                }
+                &:nth-child(12) {
+                    stroke-dashoffset: 154;
+                    stroke-dasharray: 154;
+                    stroke: #fff;
+                    stroke-width: 2px;
+                    fill: transparent;
+                    animation:
+                        animateLogo 2s linear forwards,
+                        logoFillBa 1.5s forwards linear 2.2s;
+                }
+                &:nth-child(13) {
+                    stroke-dashoffset: 24;
+                    stroke-dasharray: 24;
+                    stroke: #fff;
+                    stroke-width: 2px;
+                    fill: transparent;
+                    animation:
+                        animateLogo 2s linear forwards,
+                        logoFillBa 1.5s forwards linear 2.2s;
+                }
+                &:nth-child(14) {
+                    stroke-dashoffset: 62;
+                    stroke-dasharray: 62;
+                    stroke: #fff;
+                    stroke-width: 2px;
+                    fill: transparent;
+                    animation:
+                        animateLogo 2s linear forwards,
+                        logoFillBa 1.5s forwards linear 2.2s;
+                }
+                &:nth-child(15) {
+                    stroke-dashoffset: 112;
+                    stroke-dasharray: 112;
+                    stroke: #fff;
+                    stroke-width: 2px;
+                    fill: transparent;
+                    animation:
+                        animateLogo 2s linear forwards,
+                        logoFillBa 1.5s forwards linear 2.2s;
+                }
+                &:nth-child(22) {
+                    stroke-dashoffset: 115;
+                    stroke-dasharray: 115;
+                    stroke: #fff;
+                    stroke-width: 2px;
+                    fill: transparent;
+                    animation:
+                        animateLogo 2s linear forwards,
+                        logoFillBa 1.5s forwards linear 2.2s;
+                }
+                &:nth-child(23) {
+                    stroke-dashoffset: 39;
+                    stroke-dasharray: 39;
+                    stroke: #fff;
+                    stroke-width: 2px;
+                    fill: transparent;
+                    animation:
+                        animateLogo 2s linear forwards,
+                        logoFillBa 1.5s forwards linear 2.2s;
+                }
+            }
+        }
+    }
+}
+@keyframes logoFillBa {
+    to {
+        fill: #fff;
+        stroke-width: 0;
+    }
+}
